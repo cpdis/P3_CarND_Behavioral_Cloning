@@ -99,7 +99,7 @@ img_channels = 3
 # Preprocess image files
 def preprocessImage(img):
     """
-    Removes the irrelevant areas of the image (car hood) and resizes the
+    Removes the irrelevant areas of the image (car hood and above horizon) and resizes the
     image to the specified dimensions
 
     Parameters
